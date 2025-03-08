@@ -1,0 +1,39 @@
+h1{
+    color:black
+}
+#tit_1 curriculo {
+    font-size: 40px;
+}
+p,h1{
+    background-color:white;
+}
+.destaque{
+    color: blue;
+}
+table{
+    width:100%;
+}
+table{
+     font-weight:bolder;
+     font-size: 30;
+}
+th{
+    background-color:gray;
+    color:white;
+}
+#conteudo{
+    width: 70%;
+    background-color: chartreuse;
+}
+#menu_contexto{
+    width: 30%;
+    background-color: aquamarine;
+    float: left;
+}
+#rodape{
+    clear: both;
+}
+#h2{
+    font-family: arial;
+    font-size: x-small;
+}
