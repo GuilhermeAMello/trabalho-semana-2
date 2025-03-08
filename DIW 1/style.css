@@ -37,3 +37,36 @@ th{
     font-family: arial;
     font-size: x-small;
 }
+header {
+    background-color: #808080; /* Cor de fundo cinza */
+    color: white; /* Cor do texto branco */
+    padding: 20px 0; /* Espaçamento interno (superior e inferior) */
+}
+
+header h1 {
+    text-align: center; /* Alinhar o título no centro */
+    font-size: 2em; /* Tamanho da fonte do título */
+    margin-bottom: 10px; /* Espaçamento inferior */
+}
+
+nav ul {
+    list-style-type: none; /* Remove os marcadores da lista */
+    padding: 0;
+    text-align: center; /* Alinha o menu de navegação ao centro */
+}
+
+nav ul li {
+    display: inline-block; /* Exibe os itens da lista na horizontal */
+    margin: 0 15px; /* Espaçamento horizontal entre os itens */
+}
+
+nav ul li a {
+    color: white; /* Cor do texto dos links */
+    text-decoration: none; /* Remove o sublinhado dos links */
+    font-size: 1.2em; /* Tamanho da fonte dos links */
+    transition: color 0.3s ease; /* Efeito de transição para a cor do link */
+}
+
+nav ul li a:hover {
+    color: #FFD700; /* Cor do texto ao passar o mouse (dourado) */
+}
